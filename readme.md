@@ -1,0 +1,1 @@
+The components never modify shared structural memory blocks at the same time. The data flow moves exclusively forward:$$\text{Ingestion} \xrightarrow{\text{Tick}} \text{Strategy} \xrightarrow{\text{Order}} \text{Execution}$$
